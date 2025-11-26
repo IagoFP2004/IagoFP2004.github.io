@@ -10,9 +10,9 @@ root.render(
   <>
     <Header />
     <Inicio />
-    <h2 className='ms-5 mt-5'>Sobre Mi</h2>
+    <h2 id='sobreMi' className='ms-5 mt-5'>Sobre Mi</h2>
     <SobreMi />
-    <h2 className='ms-5 mt-5'>Habilidades</h2>
+    <h2 id='habilidades' className='ms-5 mt-5'>Habilidades</h2>
   </>
 );
 
