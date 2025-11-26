@@ -26,8 +26,7 @@ export function SobreMi() {
               <p className="mb-3 text-muted">
                 <span className="fw-semibold">¡Hola! Soy Iago Francisco Pérez</span>, un apasionado
                 desarrollador web con experiencia en la creación de sitios web modernos y funcionales.
-                Me especializo en tecnologías como <span className="fw-semibold">HTML, CSS, JavaScript</span> y
-                frameworks populares como <span className="fw-semibold">React</span> y <span className="fw-semibold">PHP</span>.
+                
               </p>
 
               <p className="mb-3">
