@@ -1,6 +1,6 @@
 export function Header() {
   return (
-    <header className="w-100 bg-dark text-white">
+    <header className="w-100 bg-dark text-white position-fixed top-0">
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
 
