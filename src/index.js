@@ -9,7 +9,7 @@ root.render(
   <>
     <Header />
     <Inicio />
-    <h2 className='ms-5'>Sobre Mi</h2>
+    <h2 className='ms-5 p-3'>Sobre Mi</h2>
   </>
 );
 
