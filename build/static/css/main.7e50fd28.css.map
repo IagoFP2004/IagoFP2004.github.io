@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.7e50fd28.css","mappings":"AAAA,yBACI,kBACI,uBACJ,CACJ","sources":["css/inicio.css"],"sourcesContent":["@media (max-width: 576px) {\n    .contenedorInicio {\n        background-position: center;\n    }\n}"],"names":[],"ignoreList":[],"sourceRoot":""}
