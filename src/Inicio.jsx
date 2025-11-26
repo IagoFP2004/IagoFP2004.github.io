@@ -5,7 +5,7 @@ export function Inicio() {
     <div className='contenedorInicio'
     style={{
         backgroundImage: 'url(/ImagenInicio.png)', 
-        height: '95vh', backgroundSize: 'cover',
+        height: '100vh', backgroundSize: 'cover',
         display: 'flex', flexDirection: 'column',
         justifyContent: 'center', alignItems: 'center',
         color: 'white', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)'
