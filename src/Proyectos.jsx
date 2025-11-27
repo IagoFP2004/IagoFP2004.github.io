@@ -25,6 +25,12 @@ export function Proyectos() {
               registrarse, iniciar sesión, ver productos, añadirlos al carrito
               y realizar pedidos.
             </p>
+            <div className="d-flex flex-direction-row justify-content-between flex-wrap">
+              <p>PHP</p>
+              <p>MySQL</p>
+              <p>JavaScript</p>
+              <p>Bootstrap</p>
+            </div>
             <a href="https://github.com/IagoFP2004/NutroPro" target="_blank" className="btn btn-dark d-flex justify-content-center">
               <i className="bi bi-github pe-2"></i>Ver en GitHub
             </a>
