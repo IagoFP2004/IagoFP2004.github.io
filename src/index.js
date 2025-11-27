@@ -5,6 +5,7 @@ import { Inicio } from './Inicio.jsx';
 import { SobreMi } from './SobreMi.jsx';
 import { Habilidades } from './Habilidades.jsx';
 import { Proyectos } from './Proyectos.jsx';
+import { Contacto } from './Contacto.jsx';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,6 +20,7 @@ root.render(
     <h2 id='proyectos' className='ms-5 mt-5 mb-5'>Proyectos</h2>
     <Proyectos />
     <h2 id='contacto' className='ms-5 mt-5 mb-5'>Contacto</h2>
+    <Contacto />
   </>
 );
 
