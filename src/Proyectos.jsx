@@ -1,11 +1,14 @@
 import { useState } from "react";
+
 export function Proyectos() {
   const [hoveredCard, setHoveredCard] = useState(false);
   return (
     <div className="d-flex justify-content-center gap-4 flex-wrap mb-5">
       <div>
-        <div className="card" style={{ width: "18rem", width: hoveredCard ? "450px" : "286px",
-              transition: "width 0.3s ease" }}>
+        <div className="card" style={{
+          width: "18rem", width: hoveredCard ? "450px" : "286px",
+          transition: "width 0.3s ease"
+        }}>
           <img
             onMouseEnter={() => setHoveredCard(true)}
             onMouseLeave={() => setHoveredCard(false)}
@@ -17,6 +20,7 @@ export function Proyectos() {
             className="card-img-top"
             alt="imagen proyecto"
           />
+
           <div className="card-body">
             <h5 className="card-title">NutroPro</h5>
             <p className="card-text">
@@ -25,11 +29,11 @@ export function Proyectos() {
               registrarse, iniciar sesión, ver productos, añadirlos al carrito
               y realizar pedidos.
             </p>
-            <div className="d-flex flex-direction-row justify-content-between flex-wrap">
-              <p>PHP</p>
-              <p>MySQL</p>
-              <p>JavaScript</p>
-              <p>Bootstrap</p>
+            <div className="mb-3 d-flex justify-content-center flex-wrap gap-2">
+              <span className="badge bg-secondary">PHP</span>
+              <span className="badge bg-secondary">MySQL</span>
+              <span className="badge bg-secondary">JS</span>
+              <span className="badge bg-secondary">Bootstrap</span>
             </div>
             <a href="https://github.com/IagoFP2004/NutroPro" target="_blank" className="btn btn-dark d-flex justify-content-center">
               <i className="bi bi-github pe-2"></i>Ver en GitHub
