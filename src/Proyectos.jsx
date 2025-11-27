@@ -33,6 +33,7 @@ export function Proyectos() {
               <span className="badge bg-secondary">PHP</span>
               <span className="badge bg-secondary">MySQL</span>
               <span className="badge bg-secondary">JS</span>
+              <span className="badge bg-secondary">Docker</span>
               <span className="badge bg-secondary">Bootstrap</span>
             </div>
             <a href="https://github.com/IagoFP2004/NutroPro" target="_blank" className="btn btn-dark d-flex justify-content-center">
