@@ -46,12 +46,12 @@ export function Header() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="#">
+                <a className="nav-link text-white" href="#proyectos">
                   <i className="bi bi-folder-fill p-2" />Proyectos
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="#">
+                <a className="nav-link text-white" href="#contacto">
                   <i className="bi bi-envelope p-2" />Contacto
                 </a>
               </li>
