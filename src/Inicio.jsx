@@ -2,9 +2,10 @@ import './css/inicio.css'
 
 export function Inicio() {
   return (
-    <div className='contenedorInicio'
+    <div className='contenedorInicio w-100'
     style={{
         backgroundImage: 'url(/ImagenInicio.png)', 
+        backgroundClip: 'border-box',
         height: '100vh', backgroundSize: 'cover',
         display: 'flex', flexDirection: 'column',
         justifyContent: 'center', alignItems: 'center',
