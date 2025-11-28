@@ -47,13 +47,14 @@ export function Contacto() {
 
           <div className="col d-flex justify-content-center">
             <a
-              href="https://instagram.com/tuusuario"
+              href="/CurriculumVitaeIagoFranciscoPerez.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="btn border border-primary text-primary px-4 py-3 w-100"
+              download
             >
-              <i className="bi bi-instagram pe-2"></i>
-              Instagram
+              <i class="bi bi-file-person"></i>
+              Descargar CV
             </a>
           </div>
         </div>
